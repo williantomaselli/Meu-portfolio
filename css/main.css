@@ -1,0 +1,463 @@
+.content-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main{
+    font-family: "Lexend";
+    display: flex;
+    flex-direction: column;
+}
+
+.display-info-main{
+    margin-top: 20vh;
+}
+
+body {
+    scroll-behavior: smooth !important;
+}
+
+
+h4{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.display-info-main h1{
+    font-weight: 500;
+    font-size: 5rem;
+    color: #E25151;
+    filter: drop-shadow(0.3rem 0.2rem 0.2rem rgba(0,0,0,0.3));
+}
+
+h5{
+    margin-top: -1.5vh;
+    margin-bottom: 1.5vh;
+    font-weight: 300;
+    font-size: 1.7rem;
+}
+
+p{
+    font-weight: 250;
+    margin-bottom: 2vh;
+}
+
+strong{
+    font-weight: 450;
+    transition: 0.5s;
+}
+
+.contact-links a img{
+    width: 5vh;
+    height: 5vh;
+    transition: transform 0.2s ease;
+}
+
+.contact-links a img:hover{
+    transform: translateY(6px);
+}
+
+#foto-main{
+    width: 50vh;
+    height: 50vh;
+    margin-top: 16vh;
+    border-radius: 100%;
+    /* filter: drop-shadow(inset 0.3rem 0.2rem 0.2rem rgba(0,0,0,0.3)); */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
+
+strong:hover{
+    color: #E25151;
+}
+
+/* sobre */
+.content-about{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.about-title{
+    width: 100%;
+    justify-content: baseline;
+    align-items: center;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.sobre{
+    text-align: center;
+}
+
+.sobre h1, .projects h1, .services h1, .habs h1{
+    color: #E25151;
+    text-align: center;
+}
+
+.conteudo-sobre{
+    margin-top: 10vh;
+    margin-bottom: 9vh;
+    width: 40%;
+    font-weight: 400;
+}
+
+.about-title .line-header{
+    width: 35%;
+}
+
+/* projetos */
+.content-project{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-title{
+    width: 100%;
+    justify-content: baseline;
+    align-items: center;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.about-projects{
+    width: 100%;
+    justify-content: baseline;
+    align-items: center;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.projects, .habs{
+    text-align: center;
+}
+
+.content-project .line-header{
+    width: 35%;
+}
+.content-habs .line-header{
+    width: 35%;
+}
+
+
+.display-projects{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+
+/* project1 */
+.display-project1,.display-project2,.display-project3 {
+    background-color: #D9D9D9;
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10vh;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
+
+.display-project1 h4,.display-project2 h4,.display-project3 h4{
+    font-size: 1.5rem;
+}
+.img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img img{
+    width: 95%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1vh;
+    box-shadow: -5px -5px -5px rgba(0, 0, 0, 0.497);
+}
+
+.buttons-project1{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 7vh;
+    
+    
+    background-color: #FB6666;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.497);
+    transition: 0.5s ease-in-out;
+}
+
+.button:hover{
+    background-color: #E25151;
+    transition: active 0.3s ease;
+}
+.button:active{
+    box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.497);
+}
+
+.text-project{
+    padding-top: 2vh;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.buttons-project1 a{
+    width: 100%;
+}
+
+
+/* servicos */
+.content-services{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-title{
+    width: 100%;
+    justify-content: baseline;
+    align-items: center;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.services{
+    text-align: center;
+}
+
+.services-title .line-header {
+    width: 32%;
+}
+
+
+.display-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+.card1, .card2, .card3{
+    width: 28%;
+    height: 30vh;
+    border-bottom: 3px solid #E25151;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.card1:hover, .card2:hover, .card3:hover{
+    transform: translateY(15px);
+}
+
+.card1 h2, .card2 h2, .card3 h2{
+    font-weight: 300;
+}
+
+.display-cards h2, .display-cards img{
+    margin-left: 6vh;
+    padding: 1vh;
+}
+.display-cards img{
+    width: 10vh;
+    height: auto;
+    
+}
+
+
+/* SERVICOS */
+.content-habs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.display-habs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    justify-items: center; /* Centraliza os itens na coluna */
+    align-items: center; /* Centraliza os itens na linha */
+    width: 50%;
+}
+
+.html,.css,.js,.c-sharp,.figma,.git{
+    margin-top: 2vh;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.html{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEFEF;
+    border-bottom: 3px solid orange;
+    border-radius: 5px;
+    color: orange;
+    font-size: 1.5rem;
+}
+.css{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEFEF;
+    border-bottom: 3px solid rgb(0, 157, 255);
+    border-radius: 5px;
+    color: rgb(0, 157, 255);
+    font-size: 1.5rem;
+}
+.js{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEFEF;
+    border-bottom: 3px solid #FFE500;
+    border-radius: 5px;
+    color: #ffe600;
+    font-size: 1.5rem;
+}
+.c-sharp{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEFEF;
+    border-bottom: 3px solid purple;
+    border-radius: 5px;
+    color: purple;
+    font-size: 1.5rem;
+}
+.figma{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEFEF;
+    border-bottom: 3px solid palevioletred;
+    border-radius: 5px;
+    color: palevioletred;
+    font-size: 1.5rem;
+}
+.git{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEFEF;
+    border-bottom: 3px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 1.5rem;
+}
+
+
+/* contato */
+.content-contact{
+    margin-top: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.content-contact h1{
+    color: #E25151;
+    text-align: center;
+}
+
+.content-contact p{
+    text-align: center;
+}
+
+.content-contact .contact-links img{
+    width: 10vh;
+    height: auto;
+    margin-top: 9vh;
+    margin: 2vh;
+    filter: drop-shadow(0px 20px 30px rgb(38, 57, 77));
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-top: 12vh;
+    padding: 2vh;
+    
+}
+
+.sobre h1,.projects h1,.services h1,.habs h1,.contact h1{
+    transition: 0.3s ease;
+}
+
+.sobre h1:hover,.projects h1:hover,.services h1:hover,.habs h1:hover,.contact h1:hover{
+    transform: scale(1.3);
+    filter: drop-shadow(0px 10px 20px rgb(38, 57, 77));
+    
+}
+
+#botaoTopo {
+    opacity: 75%;
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #E25151;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    transition: 0.2s ease;
+}
+
+#botaoTopo:active {
+    background-color: #E25151;
+
+    transform: scale(0.90);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#botaoTopo {
+    display: flex;
+}
+

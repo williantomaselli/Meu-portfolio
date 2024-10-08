@@ -1,0 +1,120 @@
+@media screen and (max-width: 1000px) {
+    .content-main{
+        flex-direction: column-reverse;
+    }
+
+    .js, .html,.css,.git,.figma,.c-sharp{
+        width: 70%;
+    }
+
+    
+}
+
+@media screen and (max-width: 850px){
+    nav{
+        display: none;
+    }
+
+    #foto-main{
+        margin-top: 5vh;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px){
+    .display-info-main h1{
+        font-size: 3.5rem;
+    }
+
+    .display-info-main{
+        margin-top: 7vh;
+    }
+
+    .display-projects{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .display-project1,.display-project2,.display-project3{
+        width: 80%;
+    }
+
+    .display-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1,.card2,.card3{
+        width: 80%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .js, .html,.css,.git,.figma,.c-sharp{
+        width: 80%;
+        
+    }
+    
+    .display-habs{
+        width: 80%;
+    }
+
+    .conteudo-sobre{
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    #foto-main{
+        width: 60%;
+        height: auto;
+    }
+
+    .display-info-main{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        overflow-x: hidden;
+    }
+
+    .display-info-main h4{
+        font-size: 1rem;
+    }
+
+    .display-info-main h1{
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .display-info-main h5{
+        font-size: 1.2rem;
+    }
+
+    .display-info-main p{
+        font-size: 0.8rem;
+        margin: 1.6rem;
+        text-align: left;
+
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    footer p{
+        font-size: 0.8rem;
+    }
+
+    .display-habs{
+        width: 100%;
+    }
+
+    .conteudo-sobre p{
+        font-size: 0.8rem !important;
+    }
+}
