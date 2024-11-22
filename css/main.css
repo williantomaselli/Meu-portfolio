@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+body, html{
+    scroll-behavior: smooth;
+}
+
 main{
     font-family: "Lexend";
     display: flex;
