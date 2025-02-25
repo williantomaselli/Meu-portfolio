@@ -36,7 +36,7 @@
         width: 100%;
     }
 
-    .display-project1,.display-project2,.display-project3{
+    .display-project1,.display-project2,.display-project3, .display-project4{
         width: 80%;
     }
 
@@ -96,9 +96,9 @@
     }
 
     .display-info-main p{
-        font-size: 0.8rem;
+        font-size: 1rem;
         margin: 1.6rem;
-        text-align: left;
+        max-width: 90%;
 
     }
 
@@ -115,6 +115,6 @@
     }
 
     .conteudo-sobre p{
-        font-size: 0.8rem !important;
+        font-size: 1rem !important;
     }
 }
